@@ -16,9 +16,9 @@ public class ZivLempel {
 
     public static void main(String args[])
     {
-        String inFile = "files/input.txt";
-        String compressedFile = "files/compressed.txt";
-        String decompressedFile = "files/decompressed.txt";
+        String inFile = "files/input3.txt";
+        String compressedFile = "files/compressed3.txt";
+        String decompressedFile = "files/decompressed3.txt";
         compress(inFile, compressedFile);
         decompress(compressedFile, decompressedFile);
     }
